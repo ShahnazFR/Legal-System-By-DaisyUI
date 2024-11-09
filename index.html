@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal System</title>
+    <!-- Tailwind and DaisyUI connection -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Custom Classes -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome link tag -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Styles -->
+    <style>
+        .font-poppins {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .font-eb-garamond {
+            font-family: "EB Garamond", serif;
+        }
+
+        .heading-color {
+            color: #414040;
+        }
+
+        .normal-text-color {
+            color: #707070;
+        }
+
+        .banner-container {}
+    </style>
+</head>
+
+<body class="m-0 p-0 box-border">
+    <header class="w-11/12 lg:w-3/4 mx-auto mt-5 md:mt-10 lg:mt-16 mb-10 md:mb-16 lg:mb-28">
+        <nav class="flex justify-between items-center mb-12">
+            <div class="flex gap-4">
+                <img src="./images/Group 1.png" alt="">
+                <h3 class="heading-color text-4xl font-extrabold font-eb-garamond">Justice</h3>
+            </div>
+            <div class="hidden lg:flex gap-8 normal-text-color font-poppins">
+                <a href="">Home</a>
+                <a href="">Services <i class="fa-solid fa-angle-right"></i></a>
+                <a href="">Cases <i class="fa-solid fa-angle-right"></i></a>
+                <a href="">Blog <i class="fa-solid fa-angle-right"></i></a>
+                <a href="">Contact Us <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div>
+                <button
+                    class="flex items-center justify-center rounded-lg bg-[#B68C5A] text-white text-sm md:text-xl lg:text-xl font-semibold px-4 md:px-7 lg:px-7 py-3 md:py-5 lg:py-5">Free
+                    Consultation</button>
+            </div>
+        </nav>
+        <div class="banner-container flex flex-col items-center justify-center h-[540px] w-full" style="border-radius: 8px;  background-size: contain; background-repeat: no-repeat; background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, #111 100%), url(./images/banner.png);">
+            <div class="flex flex-col justify-center items-center text-center text-white">
+                <h1 class="mb-6 text-4xl md:text-5xl lg:text-7xl font-extrabold font-eb-garamond">We Provide Effective <br> Legal Solutions
+                </h1>
+                <p class="mb-8 w-3/5 text-[#E7E7E7]">There are many variations of passages of Lorem Ipsum available, but the
+                    majority
+                    have suffered alteration in some form, by injected humour.
+                </p>
+                <div class="flex flex-col lg:flex-row w-3/5 gap-6">
+                    <input class="flex-1 rounded-lg p-5" type="text" placeholder="Search your services">
+                    <button
+                    class="flex items-center justify-center rounded-lg bg-[#B68C5A] text-white text-sm md:text-xl lg:text-xl font-semibold px-4 md:px-7 lg:px-7 py-3 md:py-5 lg:py-5">Search
+                </button>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+    <main class="">
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
